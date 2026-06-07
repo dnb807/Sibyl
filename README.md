@@ -78,3 +78,6 @@ The correlations page can filter already-computed rows by tweet text using the f
 * `hashtag` - `#\w+`
 * `mention` - `@\w+`
 * `cashtag` - `\$[A-Z]{1,6}`
+
+## AI Declaration
+No AI has been used
