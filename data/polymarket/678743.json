@@ -1,0 +1,95 @@
+{
+  "market_id": "678743",
+  "topic": "Will Israel strike 0 countries in 2026?",
+  "slug": "how-many-different-countries-will-israel-strike-in-2026",
+  "creation_timestamp": 1762972930,
+  "resolution_timestamp": 1767374941,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767247200,
+      "interval": "15m",
+      "price": 0.014000000986019723
+    },
+    {
+      "timestamp": 1767263400,
+      "interval": "15m",
+      "price": 0.012465486678836957
+    },
+    {
+      "timestamp": 1767267000,
+      "interval": "15m",
+      "price": 0.01925682904215106
+    },
+    {
+      "timestamp": 1767269700,
+      "interval": "15m",
+      "price": 0.011545371885797406
+    },
+    {
+      "timestamp": 1767280500,
+      "interval": "15m",
+      "price": 0.0070002797079817825
+    },
+    {
+      "timestamp": 1767283200,
+      "interval": "15m",
+      "price": 0.015000000000000013
+    },
+    {
+      "timestamp": 1767285000,
+      "interval": "15m",
+      "price": 0.006319274426886267
+    },
+    {
+      "timestamp": 1767309300,
+      "interval": "15m",
+      "price": 0.0036466431095406593
+    },
+    {
+      "timestamp": 1767312000,
+      "interval": "15m",
+      "price": 0.007692307692307693
+    },
+    {
+      "timestamp": 1767313800,
+      "interval": "15m",
+      "price": 0.007
+    },
+    {
+      "timestamp": 1767344400,
+      "interval": "15m",
+      "price": 0.008000000000000007
+    },
+    {
+      "timestamp": 1767345300,
+      "interval": "15m",
+      "price": 0.006000000000000005
+    },
+    {
+      "timestamp": 1767348900,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767349800,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767350700,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767356100,
+      "interval": "15m",
+      "price": 0.001
+    },
+    {
+      "timestamp": 1767372300,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    }
+  ]
+}

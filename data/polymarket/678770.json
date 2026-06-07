@@ -1,0 +1,100 @@
+{
+  "market_id": "678770",
+  "topic": "Will the US strike 1 country in 2026?",
+  "slug": "how-many-different-countries-will-the-us-strike-in-2026",
+  "creation_timestamp": 1762973471,
+  "resolution_timestamp": 1767774169,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767420000,
+      "interval": "15m",
+      "price": 0.08985704429419072
+    },
+    {
+      "timestamp": 1767427200,
+      "interval": "15m",
+      "price": 0.05300000000000005
+    },
+    {
+      "timestamp": 1767430800,
+      "interval": "15m",
+      "price": 0.05011079311204214
+    },
+    {
+      "timestamp": 1767456000,
+      "interval": "15m",
+      "price": 0.010172209700308854
+    },
+    {
+      "timestamp": 1767468600,
+      "interval": "15m",
+      "price": 0.013000000000000012
+    },
+    {
+      "timestamp": 1767469500,
+      "interval": "15m",
+      "price": 0.01200000000000001
+    },
+    {
+      "timestamp": 1767480300,
+      "interval": "15m",
+      "price": 0.022999977988999054
+    },
+    {
+      "timestamp": 1767501900,
+      "interval": "15m",
+      "price": 0.025641638385147644
+    },
+    {
+      "timestamp": 1767549600,
+      "interval": "15m",
+      "price": 0.02200000000000002
+    },
+    {
+      "timestamp": 1767551400,
+      "interval": "15m",
+      "price": 0.019000000000000017
+    },
+    {
+      "timestamp": 1767569400,
+      "interval": "15m",
+      "price": 0.015000000000000013
+    },
+    {
+      "timestamp": 1767680100,
+      "interval": "15m",
+      "price": 0.007991655915817852
+    },
+    {
+      "timestamp": 1767681000,
+      "interval": "15m",
+      "price": 0.016000000000000014
+    },
+    {
+      "timestamp": 1767704400,
+      "interval": "15m",
+      "price": 0.004127762872109365
+    },
+    {
+      "timestamp": 1767726900,
+      "interval": "15m",
+      "price": 0.0040000000000000036
+    },
+    {
+      "timestamp": 1767728700,
+      "interval": "15m",
+      "price": 0.008765294535131307
+    },
+    {
+      "timestamp": 1767762000,
+      "interval": "15m",
+      "price": 0.001
+    },
+    {
+      "timestamp": 1767762900,
+      "interval": "15m",
+      "price": 0.001
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "market_id": "666605",
+  "topic": "Will Trump meet with Abdel Fattah El-Sisi in 2026?",
+  "slug": "who-will-trump-meet-with-in-2026",
+  "creation_timestamp": 1762361793,
+  "resolution_timestamp": 1769023814,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1768484700,
+      "interval": "15m",
+      "price": 0.9248351766637066
+    },
+    {
+      "timestamp": 1768490100,
+      "interval": "15m",
+      "price": 0.95
+    },
+    {
+      "timestamp": 1768602600,
+      "interval": "15m",
+      "price": 0.96
+    },
+    {
+      "timestamp": 1768773600,
+      "interval": "15m",
+      "price": 0.9310478449734121
+    },
+    {
+      "timestamp": 1768866300,
+      "interval": "15m",
+      "price": 0.94
+    },
+    {
+      "timestamp": 1768896900,
+      "interval": "15m",
+      "price": 0.96
+    },
+    {
+      "timestamp": 1768897800,
+      "interval": "15m",
+      "price": 0.95
+    },
+    {
+      "timestamp": 1768923000,
+      "interval": "15m",
+      "price": 0.975
+    },
+    {
+      "timestamp": 1768926600,
+      "interval": "15m",
+      "price": 0.979
+    },
+    {
+      "timestamp": 1768927500,
+      "interval": "15m",
+      "price": 0.979
+    },
+    {
+      "timestamp": 1768959000,
+      "interval": "15m",
+      "price": 0.9889999990109869
+    },
+    {
+      "timestamp": 1768983300,
+      "interval": "15m",
+      "price": 0.9889999991744468
+    },
+    {
+      "timestamp": 1768984200,
+      "interval": "15m",
+      "price": 0.989
+    },
+    {
+      "timestamp": 1769011200,
+      "interval": "15m",
+      "price": 0.991
+    },
+    {
+      "timestamp": 1769013000,
+      "interval": "15m",
+      "price": 0.998
+    },
+    {
+      "timestamp": 1769013900,
+      "interval": "15m",
+      "price": 0.999
+    },
+    {
+      "timestamp": 1769014800,
+      "interval": "15m",
+      "price": 0.999
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Markets - Sibyl{% endblock %}
+
+{% block content %}
+    <h1>Markets</h1>
+
+    <form method="GET" action="/markets">
+        <label>Limit</label>
+        <input type="number" name="limit" value="{{ limit }}" min="0">
+        <button type="submit">Show markets</button>
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Market ID</th>
+                <th>Topic</th>
+                <th>Created</th>
+                <th>Resolved</th>
+                <th>Pool</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for market in markets %}
+                <tr>
+                    <td>{{ market.market_id }}</td>
+                    <td>{{ market.topic }}</td>
+                    <td>{{ market.creation_time }}</td>
+                    <td>{{ market.resolution_time }}</td>
+                    <td>{{ "%.2f"|format(market.price_pool or 0) }}</td>
+                </tr>
+            {% else %}
+                <tr><td colspan="5">No markets found.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

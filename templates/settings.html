@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Settings - Sibyl{% endblock %}
+
+{% block content %}
+    <h1>Settings</h1>
+
+    <p>Changes what counts as a correlation and recomputes the whole cache. As such, it may take a while.</p>
+    <form method="POST" action="/settings">
+        <label>Window (hours)</label>
+        <input type="number" name="window" value="{{ window }}" min="0" step="any">
+
+        <label>Percent change (+/-)</label>
+        <input type="number" name="threshold" value="{{ threshold }}" min="0" step="any">
+
+        <button type="submit">Recalculate correlations</button>
+    </form>
+{% endblock %}

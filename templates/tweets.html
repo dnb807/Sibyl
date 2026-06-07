@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Tweets - Sibyl{% endblock %}
+
+{% block content %}
+    <h1>Tweets</h1>
+
+    <form method="GET" action="/tweets">
+        <label>User</label>
+        <select name="username">
+            <option value="" {% if selected_username == "" %}selected{% endif %}>All users</option>
+            {% for user in users %}
+                <option value="{{ user.username }}" {% if user.username == selected_username %}selected{% endif %}>{{ user.author or user.username }} (@{{ user.username }})</option>
+            {% endfor %}
+        </select>
+
+        <label>From date</label>
+        <input type="date" name="from_date" value="{{ from_date }}">
+
+        <label>To date</label>
+        <input type="date" name="to_date" value="{{ to_date }}">
+
+        <label>Limit</label>
+        <input type="number" name="limit" value="{{ limit }}" min="0">
+
+        <button type="submit">Show tweets</button>
+    </form>
+
+    {% if from_date or to_date %}
+        <p>Copenhagen date filter: {{ min_time if min_time else "start" }} to {{ max_time if max_time else "end" }}</p>
+    {% endif %}
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Tweet</th>
+                <th>Author</th>
+                <th>When (CPH)</th>
+                <th>Unix</th>
+                <th>Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tweet in tweets %}
+                <tr>
+                    <td>{% if tweet.original_tweet_id %}<a href="https://x.com/i/status/{{ tweet.original_tweet_id }}" target="_blank" rel="noopener noreferrer">{{ tweet.original_tweet_id }}</a>{% else %}{{ tweet.id }}{% endif %}</td>
+                    <td>{{ tweet.author or tweet.username }}<br>@{{ tweet.username }}</td>
+                    <td>{{ tweet.copenhagen_day }}<br>{{ tweet.copenhagen_time }}</td>
+                    <td>{{ tweet.unix_timestamp }}</td>
+                    <td>{{ tweet.content }}</td>
+                </tr>
+            {% else %}
+                <tr><td colspan="5">No tweets found for this user and date range.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

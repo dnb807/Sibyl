@@ -1,0 +1,15 @@
+{
+  "market_id": "552121",
+  "topic": "Will the U.S. invade Iran in 2025?",
+  "slug": "will-the-us-invade-iran-in-2025",
+  "creation_timestamp": 1749798556,
+  "resolution_timestamp": 1767259057,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767251700,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    }
+  ]
+}

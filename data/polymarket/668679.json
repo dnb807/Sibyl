@@ -1,0 +1,65 @@
+{
+  "market_id": "668679",
+  "topic": "Will Maduro's rule survive a US military engagement?",
+  "slug": "will-the-maduro-regime-survive-a-us-military-engagement",
+  "creation_timestamp": 1762478396,
+  "resolution_timestamp": 1767259171,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767228300,
+      "interval": "15m",
+      "price": 0.004
+    },
+    {
+      "timestamp": 1767236400,
+      "interval": "15m",
+      "price": 0.0021332411886662017
+    },
+    {
+      "timestamp": 1767241800,
+      "interval": "15m",
+      "price": 0.0030000000000000027
+    },
+    {
+      "timestamp": 1767249900,
+      "interval": "15m",
+      "price": 0.0050000000000000044
+    },
+    {
+      "timestamp": 1767251700,
+      "interval": "15m",
+      "price": 0.004778974438902739
+    },
+    {
+      "timestamp": 1767252600,
+      "interval": "15m",
+      "price": 0.0040000000000000036
+    },
+    {
+      "timestamp": 1767253500,
+      "interval": "15m",
+      "price": 0.003437005637372703
+    },
+    {
+      "timestamp": 1767254400,
+      "interval": "15m",
+      "price": 0.0020000000000000018
+    },
+    {
+      "timestamp": 1767255300,
+      "interval": "15m",
+      "price": 0.0020000000000000018
+    },
+    {
+      "timestamp": 1767256200,
+      "interval": "15m",
+      "price": 0.0020000000000000018
+    },
+    {
+      "timestamp": 1767257100,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    }
+  ]
+}

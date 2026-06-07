@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Correlations - Sibyl{% endblock %}
+
+{% block content %}
+    <h1>Tweet / Market correlations</h1>
+    <p>Ready to trade like Nancy Pelosi? Each row is a tweet and the strongest market move that followed it within the window.</p>
+    <p><a href="/settings">Use settings to tweak constraints</a></p>
+
+    <form method="GET" action="/correlations">
+        <label>User</label>
+        <select name="username">
+            <option value="" {% if selected_username == "" %}selected{% endif %}>All users</option>
+            {% for user in users %}
+                <option value="{{ user.username }}" {% if user.username == selected_username %}selected{% endif %}>{{ user.author or user.username }} (@{{ user.username }})</option>
+            {% endfor %}
+        </select>
+
+        <label>From date</label>
+        <input type="date" name="from_date" value="{{ from_date }}">
+
+        <label>To date</label>
+        <input type="date" name="to_date" value="{{ to_date }}">
+
+        <label>Tweet contains</label>
+        <select name="pattern">
+            <option value="" {% if pattern == "" %}selected{% endif %}>anything</option>
+            <option value="hashtag" {% if pattern == "hashtag" %}selected{% endif %}>a hashtag (#...)</option>
+            <option value="mention" {% if pattern == "mention" %}selected{% endif %}>a mention (@...)</option>
+            <option value="cashtag" {% if pattern == "cashtag" %}selected{% endif %}>a cashtag ($AAA)</option>
+        </select>
+
+        <label>Limit (correlations)</label>
+        <input type="number" name="limit" value="{{ limit }}" min="0">
+
+        <button type="submit">Show correlations</button>
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Author</th>
+                <th>Tweet</th>
+                <th>Market</th>
+                <th>Change</th>
+                <th>Move after</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for correlation in correlations %}
+                <tr>
+                    <td>{{ correlation.tweet_time }}</td>
+                    <td>{{ correlation.author or correlation.username }}</td>
+                    <td>{{ correlation.content }}</td>
+                    <td>{{ correlation.topic }}</td>
+                    <td>{{ "%+.1f"|format(correlation.delta_pct) }}%</td>
+                    <td>{{ correlation.minutes_after }} min</td>
+                    <td>
+                        <a href="{{ correlation.tweet_url }}" target="_blank" rel="noopener noreferrer">tweet</a>{% if correlation.market_url %} &middot; <a href="{{ correlation.market_url }}" target="_blank" rel="noopener noreferrer">market</a>{% endif %}
+                    </td>
+                </tr>
+            {% else %}
+                <tr><td colspan="7">No correlated market moves found for these settings.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

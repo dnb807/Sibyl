@@ -1,0 +1,25 @@
+{
+  "market_id": "555132",
+  "topic": "Congress authorizes military force against Iran in 2025?",
+  "slug": "congress-authorizes-military-force-against-iran-in-2025",
+  "creation_timestamp": 1750700451,
+  "resolution_timestamp": 1767259707,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767230100,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767252600,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767258900,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    }
+  ]
+}

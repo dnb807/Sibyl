@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sibyl{% endblock %}</title>
+</head>
+<body>
+<nav>
+    <strong>Sibyl</strong>
+    <br>
+    <a href="{{ url_for('tweets.tweet_list') }}">Tweets</a>
+    <a href="{{ url_for('markets.market_list') }}">Markets</a>
+    <a href="{{ url_for('correlations.correlation_list') }}">Correlations</a>
+    <a href="{{ url_for('correlations.settings') }}">Settings</a>
+</nav>
+<main>
+    {% block content %}{% endblock %}
+</main>
+</body>
+</html>

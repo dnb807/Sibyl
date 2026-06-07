@@ -1,0 +1,210 @@
+{
+  "market_id": "665224",
+  "topic": "Ukraine signs peace deal with Russia before 2027?",
+  "slug": "ukraine-signs-peace-deal-with-russia-before-2027",
+  "creation_timestamp": 1762278530,
+  "resolution_timestamp": 1798675200,
+  "price_pool": 67154.7209,
+  "price_observations": [
+    {
+      "timestamp": 1780628400,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780629300,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780631100,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780632000,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780633800,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780634700,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780635600,
+      "interval": "15m",
+      "price": 0.33
+    },
+    {
+      "timestamp": 1780636500,
+      "interval": "15m",
+      "price": 0.33
+    },
+    {
+      "timestamp": 1780637400,
+      "interval": "15m",
+      "price": 0.32999999999999996
+    },
+    {
+      "timestamp": 1780638300,
+      "interval": "15m",
+      "price": 0.32999999999999996
+    },
+    {
+      "timestamp": 1780639200,
+      "interval": "15m",
+      "price": 0.32999999999999996
+    },
+    {
+      "timestamp": 1780640100,
+      "interval": "15m",
+      "price": 0.33
+    },
+    {
+      "timestamp": 1780641900,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780642800,
+      "interval": "15m",
+      "price": 0.32999999999999996
+    },
+    {
+      "timestamp": 1780643700,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780644600,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780645500,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780646400,
+      "interval": "15m",
+      "price": 0.32999990132351054
+    },
+    {
+      "timestamp": 1780647300,
+      "interval": "15m",
+      "price": 0.31999999999999995
+    },
+    {
+      "timestamp": 1780648200,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780649100,
+      "interval": "15m",
+      "price": 0.32
+    },
+    {
+      "timestamp": 1780650900,
+      "interval": "15m",
+      "price": 0.3
+    },
+    {
+      "timestamp": 1780651800,
+      "interval": "15m",
+      "price": 0.3099998294999233
+    },
+    {
+      "timestamp": 1780652700,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780653600,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780654500,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780655400,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780656300,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780657200,
+      "interval": "15m",
+      "price": 0.30000000102264424
+    },
+    {
+      "timestamp": 1780658100,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780659000,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780659900,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780660800,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780663500,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780664400,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780665300,
+      "interval": "15m",
+      "price": 0.3
+    },
+    {
+      "timestamp": 1780666200,
+      "interval": "15m",
+      "price": 0.31
+    },
+    {
+      "timestamp": 1780668000,
+      "interval": "15m",
+      "price": 0.3
+    },
+    {
+      "timestamp": 1780668900,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    },
+    {
+      "timestamp": 1780669800,
+      "interval": "15m",
+      "price": 0.31000000000000005
+    }
+  ]
+}

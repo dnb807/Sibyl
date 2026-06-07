@@ -1,0 +1,175 @@
+{
+  "market_id": "678771",
+  "topic": "Will the US strike 2 countries in 2026?",
+  "slug": "how-many-different-countries-will-the-us-strike-in-2026",
+  "creation_timestamp": 1762973472,
+  "resolution_timestamp": 1768096742,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767420000,
+      "interval": "15m",
+      "price": 0.10999999999999999
+    },
+    {
+      "timestamp": 1767426300,
+      "interval": "15m",
+      "price": 0.08999999999999997
+    },
+    {
+      "timestamp": 1767427200,
+      "interval": "15m",
+      "price": 0.08999999999999997
+    },
+    {
+      "timestamp": 1767569400,
+      "interval": "15m",
+      "price": 0.07999999999999996
+    },
+    {
+      "timestamp": 1767604500,
+      "interval": "15m",
+      "price": 0.10999990319998838
+    },
+    {
+      "timestamp": 1767680100,
+      "interval": "15m",
+      "price": 0.061197174945004096
+    },
+    {
+      "timestamp": 1767688200,
+      "interval": "15m",
+      "price": 0.050000000000000044
+    },
+    {
+      "timestamp": 1767704400,
+      "interval": "15m",
+      "price": 0.022
+    },
+    {
+      "timestamp": 1767762000,
+      "interval": "15m",
+      "price": 0.03198935309399089
+    },
+    {
+      "timestamp": 1767762900,
+      "interval": "15m",
+      "price": 0.020255206805514847
+    },
+    {
+      "timestamp": 1767764700,
+      "interval": "15m",
+      "price": 0.03217391416257093
+    },
+    {
+      "timestamp": 1767771900,
+      "interval": "15m",
+      "price": 0.012
+    },
+    {
+      "timestamp": 1767786300,
+      "interval": "15m",
+      "price": 0.012
+    },
+    {
+      "timestamp": 1767797100,
+      "interval": "15m",
+      "price": 0.01
+    },
+    {
+      "timestamp": 1767798900,
+      "interval": "15m",
+      "price": 0.013000000011142857
+    },
+    {
+      "timestamp": 1767800700,
+      "interval": "15m",
+      "price": 0.009
+    },
+    {
+      "timestamp": 1767801600,
+      "interval": "15m",
+      "price": 0.009000000009
+    },
+    {
+      "timestamp": 1767815100,
+      "interval": "15m",
+      "price": 0.009
+    },
+    {
+      "timestamp": 1767828600,
+      "interval": "15m",
+      "price": 0.033000001353802544
+    },
+    {
+      "timestamp": 1767831300,
+      "interval": "15m",
+      "price": 0.03604491645150287
+    },
+    {
+      "timestamp": 1767859200,
+      "interval": "15m",
+      "price": 0.01851508979818552
+    },
+    {
+      "timestamp": 1767870900,
+      "interval": "15m",
+      "price": 0.011366515173728192
+    },
+    {
+      "timestamp": 1767893400,
+      "interval": "15m",
+      "price": 0.011816864182794783
+    },
+    {
+      "timestamp": 1767934800,
+      "interval": "15m",
+      "price": 0.01200000000000001
+    },
+    {
+      "timestamp": 1768017600,
+      "interval": "15m",
+      "price": 0.009284090909090909
+    },
+    {
+      "timestamp": 1768074300,
+      "interval": "15m",
+      "price": 0.009
+    },
+    {
+      "timestamp": 1768077900,
+      "interval": "15m",
+      "price": 0.0020000000000000018
+    },
+    {
+      "timestamp": 1768078800,
+      "interval": "15m",
+      "price": 0.002125068268705621
+    },
+    {
+      "timestamp": 1768079700,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1768081500,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1768082400,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1768083300,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1768092300,
+      "interval": "15m",
+      "price": 0.001
+    }
+  ]
+}

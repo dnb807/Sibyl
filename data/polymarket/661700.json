@@ -1,0 +1,150 @@
+{
+  "market_id": "661700",
+  "topic": "Khamenei out as Supreme Leader of Iran in 2026?",
+  "slug": "khamenei-out-as-supreme-leader-of-iran-by-december-31-2026",
+  "creation_timestamp": 1762181540,
+  "resolution_timestamp": 1772323387,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1772298900,
+      "interval": "15m",
+      "price": 0.8299999975099996
+    },
+    {
+      "timestamp": 1772299800,
+      "interval": "15m",
+      "price": 0.83
+    },
+    {
+      "timestamp": 1772300700,
+      "interval": "15m",
+      "price": 0.8
+    },
+    {
+      "timestamp": 1772301600,
+      "interval": "15m",
+      "price": 0.84
+    },
+    {
+      "timestamp": 1772302500,
+      "interval": "15m",
+      "price": 0.85148513924125
+    },
+    {
+      "timestamp": 1772303400,
+      "interval": "15m",
+      "price": 0.8
+    },
+    {
+      "timestamp": 1772304300,
+      "interval": "15m",
+      "price": 0.8599999994451613
+    },
+    {
+      "timestamp": 1772305200,
+      "interval": "15m",
+      "price": 0.8599999991399997
+    },
+    {
+      "timestamp": 1772306100,
+      "interval": "15m",
+      "price": 0.86
+    },
+    {
+      "timestamp": 1772307000,
+      "interval": "15m",
+      "price": 0.985
+    },
+    {
+      "timestamp": 1772307900,
+      "interval": "15m",
+      "price": 0.9710000276370013
+    },
+    {
+      "timestamp": 1772308800,
+      "interval": "15m",
+      "price": 0.984
+    },
+    {
+      "timestamp": 1772309700,
+      "interval": "15m",
+      "price": 0.979
+    },
+    {
+      "timestamp": 1772310600,
+      "interval": "15m",
+      "price": 0.9655911890385509
+    },
+    {
+      "timestamp": 1772311500,
+      "interval": "15m",
+      "price": 0.9676610393596675
+    },
+    {
+      "timestamp": 1772312400,
+      "interval": "15m",
+      "price": 0.97
+    },
+    {
+      "timestamp": 1772313300,
+      "interval": "15m",
+      "price": 0.96
+    },
+    {
+      "timestamp": 1772314200,
+      "interval": "15m",
+      "price": 0.99
+    },
+    {
+      "timestamp": 1772315100,
+      "interval": "15m",
+      "price": 0.98979
+    },
+    {
+      "timestamp": 1772316000,
+      "interval": "15m",
+      "price": 0.99
+    },
+    {
+      "timestamp": 1772316900,
+      "interval": "15m",
+      "price": 0.989
+    },
+    {
+      "timestamp": 1772317800,
+      "interval": "15m",
+      "price": 0.9940061908629442
+    },
+    {
+      "timestamp": 1772318700,
+      "interval": "15m",
+      "price": 0.988
+    },
+    {
+      "timestamp": 1772319600,
+      "interval": "15m",
+      "price": 0.992
+    },
+    {
+      "timestamp": 1772320500,
+      "interval": "15m",
+      "price": 0.988
+    },
+    {
+      "timestamp": 1772321400,
+      "interval": "15m",
+      "price": 0.986
+    },
+    {
+      "timestamp": 1772322300,
+      "interval": "15m",
+      "price": 0.994
+    },
+    {
+      "timestamp": 1772323200,
+      "interval": "15m",
+      "price": 0.999
+    }
+  ]
+}

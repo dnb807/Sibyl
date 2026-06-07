@@ -1,0 +1,25 @@
+{
+  "market_id": "682145",
+  "topic": "U.S. Embassy in Damascus reopened by December 31, 2025?",
+  "slug": "us-embassy-in-damaskus-reopend-by",
+  "creation_timestamp": 1763133510,
+  "resolution_timestamp": 1767261153,
+  "price_pool": 0.0,
+  "price_observations": [
+    {
+      "timestamp": 1767246300,
+      "interval": "15m",
+      "price": 0.0020000000000000018
+    },
+    {
+      "timestamp": 1767252600,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    },
+    {
+      "timestamp": 1767255300,
+      "interval": "15m",
+      "price": 0.0010000000000000009
+    }
+  ]
+}
